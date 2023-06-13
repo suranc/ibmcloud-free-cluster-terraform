@@ -1,6 +1,6 @@
 resource "ibm_container_cluster" "harness_cluster" {
   name            = "harness-cluster"
-  datacenter      = "dal10"
+  #datacenter      = "dal10"
   machine_type    = "free"
   hardware        = "shared"
   #public_vlan_id  = "vlan"
